@@ -2,9 +2,10 @@
 <html lang="en">
 	<head>
 		<meta charset="utf-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<title>responsive</title>
-		<link rel="stylesheet" type="text/css" href="assets/stylesheet/style.css">	
+		<link rel="stylesheet" type="text/css" href="assets/stylesheet/style.css">
+		<link href="https://fonts.googleapis.com/css?family=Rubik:400,500,700&display=swap" rel="stylesheet">	
 	</head>
 
 	<body>
@@ -21,7 +22,7 @@
 							<a class="head" href="#">ABOUT</a>
 							<a class="head" href="#">CONTACT</a>
 								<div class="dropdown">
-							  		<button class="dropbtn">MORE</button>
+							  		<button class="dropbtn">MORE^</button>
 							  			<div class="dropdown-content">
 									    	<a href="#">ALTCAMPUS</a>
 									    	<a href="#">GOOGLE</a>
@@ -34,7 +35,7 @@
 		</header>
 <!-- section-1 -->
 		<main>
-			<section >
+			<section class="sec-1" >
 				<article class="art-1 ">
 					<div class="wrapper">
 						<div class="sub-head">
@@ -52,17 +53,20 @@
 					<div class="wrapper">
 						<h2 class="sec2-head">PORTFOLIO</h2>
 
-						<div class="container1">
-							<div class="item box1">
-								<img class="image" src="https://image.shutterstock.com/image-vector/vector-cartoon-house-on-white-260nw-738297211.jpg"> </div>
-							<div class="item box2"><img class="image" src="https://www.netclipart.com/pp/m/54-541247_pizza-slices-clipart-pizza-slice-cartoon-png.png"> </div>
-							<div class="item box3"><img class="image" src="https://image.shutterstock.com/image-photo/colorful-flower-on-dark-tropical-260nw-721703848.jpg"> </div>
-						</div>
+						<div class="flex1">
+							<div class="container1">
+									<div class="item box1"><img class="image" src="https://image.shutterstock.com/image-vector/vector-cartoon-house-on-white-260nw-738297211.jpg"> </div>
 
-						<div class="container1 box">
-							<div class="item box4"><img class="image" src="https://image.shutterstock.com/image-photo/large-beautiful-drops-transparent-rain-260nw-668593321.jpg"> </div>
-							<div class="item box5"><img class="image" src="https://image.shutterstock.com/image-photo/mountains-during-sunset-beautiful-natural-260nw-407021107.jpg"> </div>
-							<div class="item box6"><img class="image" src="https://image.shutterstock.com/image-photo/colorful-flower-on-dark-tropical-260nw-721703848.jpg"> </div>
+									<div class="item box2"><img class="image" src="https://www.netclipart.com/pp/m/54-541247_pizza-slices-clipart-pizza-slice-cartoon-png.png"> </div>
+
+									<div class="item box3"><img class="image" src="https://image.shutterstock.com/image-photo/colorful-flower-on-dark-tropical-260nw-721703848.jpg"> </div>
+							</div>
+
+								<div class="container1 box">
+									<div class="item box4"><img class="image" src="https://image.shutterstock.com/image-photo/large-beautiful-drops-transparent-rain-260nw-668593321.jpg"> </div>
+									<div class="item box5"><img class="image" src="https://image.shutterstock.com/image-photo/mountains-during-sunset-beautiful-natural-260nw-407021107.jpg"> </div>
+									<div class="item box6"><img class="image" src="https://image.shutterstock.com/image-photo/colorful-flower-on-dark-tropical-260nw-721703848.jpg"> </div>
+								</div>
 						</div>		
 					</div>
 				</article>
@@ -72,7 +76,7 @@
 
 			<section>
 				<article class="art-1">
-					<div class="wrapper">
+					<div class="wrapper1">
 						<h2 class="sec2-head sec3-head">ABOUT</h2>
 						<div class="container para">
 							<p class="p1">Lorem ipsum dolor sit amet, consectetur adipisicing elit, seddo eiusmod
@@ -94,28 +98,24 @@
 
 			<section>
 				<article>
-					<div class="wrapper">
+					<div class="wrapper1">
 						<h2 class="sec2-head sec4-head">CONTACT ME</h2>
-						<div>
-							<input class="input" type="text" name="name" placeholder="Name">
-							<hr>
-						</div>
-						<div>
-							<input class="input" type="text" name="email" placeholder="Email Address">
-							<hr>
-						</div>
-						<div>
-							<input class="input" type="text" name="phone" placeholder="Phone Number">
-							<hr>
-						</div>
-						<div>
-							<input class="input msg" type="text" name="message" placeholder="Message">
-							<hr>
-						</div>
+							<div>
+								<input class="input" type="text" name="name" placeholder="Name">
+							</div>
+							<div>
+								<input class="input" type="text" name="email" placeholder="Email Address">
+							</div>
+							<div>
+								<input class="input" type="text" name="phone" placeholder="Phone Number">
+							</div>
+							<div>
+								<textarea class="input msg">Message</textarea>
+							</div>
 
-						<div>
-							<button class="btn-snd">SEND</button>
-						</div>
+							<div>
+								<button class="btn-snd">SEND</button>
+							</div>
 					</div>
 				</article>
 			</section>
